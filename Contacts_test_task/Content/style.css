@@ -1,0 +1,234 @@
+﻿body {
+    margin-top: 20px;
+    background-color: #edf0f0;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover,
+.open > .dropdown-toggle.btn-primary {
+    background-color: #3bc0c3;
+    border: 1px solid #3bc0c3;
+}
+
+.p-t-10 {
+    padding-top: 10px !important;
+}
+
+.media-main a.pull-left {
+    width: 100px;
+}
+
+.thumb-lg {
+    height: 84px;
+    width: 84px;
+}
+
+.media-main .info {
+    overflow: hidden;
+    color: #000;
+}
+
+    .media-main .info h4 {
+        padding-top: 10px;
+        margin-bottom: 5px;
+    }
+
+.social-links li a {
+    background: #EFF0F4;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: #7A7676;
+}
+
+.rounded {
+    background: #EFF0F4;
+    width: 30px;
+    height: 30px;
+    line-height: 30px !important;
+    text-align: center;
+    display: inline-block !important;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: #7A7676;
+}
+
+
+
+div.blocked {
+    opacity: 0.5;
+}
+
+.form-control {
+    margin: 2px;
+}
+
+
+
+.cssload-container *, .cssload-container *:before, .cssload-container *:after {
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.cssload-container {
+    width: 100%;
+    height: 8px;
+}
+
+    .cssload-container > div {
+        float: left;
+        background: rgb(185,108,255);
+        height: 100%;
+        width: 9%;
+        margin-right: 4px;
+        display: inline-block;
+    }
+
+    .cssload-container.disabled > div {
+        display: none;
+    }
+
+    .cssload-container .cssload-shaft1 {
+        animation-delay: 0.06s;
+        -o-animation-delay: 0.06s;
+        -ms-animation-delay: 0.06s;
+        -webkit-animation-delay: 0.06s;
+        -moz-animation-delay: 0.06s;
+    }
+
+    .cssload-container .cssload-shaft2 {
+        animation-delay: 0.12s;
+        -o-animation-delay: 0.12s;
+        -ms-animation-delay: 0.12s;
+        -webkit-animation-delay: 0.12s;
+        -moz-animation-delay: 0.12s;
+    }
+
+    .cssload-container .cssload-shaft3 {
+        animation-delay: 0.17s;
+        -o-animation-delay: 0.17s;
+        -ms-animation-delay: 0.17s;
+        -webkit-animation-delay: 0.17s;
+        -moz-animation-delay: 0.17s;
+    }
+
+    .cssload-container .cssload-shaft4 {
+        animation-delay: 0.23s;
+        -o-animation-delay: 0.23s;
+        -ms-animation-delay: 0.23s;
+        -webkit-animation-delay: 0.23s;
+        -moz-animation-delay: 0.23s;
+    }
+
+    .cssload-container .cssload-shaft5 {
+        animation-delay: 0.29s;
+        -o-animation-delay: 0.29s;
+        -ms-animation-delay: 0.29s;
+        -webkit-animation-delay: 0.29s;
+        -moz-animation-delay: 0.29s;
+    }
+
+    .cssload-container .cssload-shaft6 {
+        animation-delay: 0.35s;
+        -o-animation-delay: 0.35s;
+        -ms-animation-delay: 0.35s;
+        -webkit-animation-delay: 0.35s;
+        -moz-animation-delay: 0.35s;
+    }
+
+    .cssload-container .cssload-shaft7 {
+        animation-delay: 0.4s;
+        -o-animation-delay: 0.4s;
+        -ms-animation-delay: 0.4s;
+        -webkit-animation-delay: 0.4s;
+        -moz-animation-delay: 0.4s;
+    }
+
+    .cssload-container .cssload-shaft8 {
+        animation-delay: 0.46s;
+        -o-animation-delay: 0.46s;
+        -ms-animation-delay: 0.46s;
+        -webkit-animation-delay: 0.46s;
+        -moz-animation-delay: 0.46s;
+    }
+
+    .cssload-container .cssload-shaft9 {
+        animation-delay: 0.52s;
+        -o-animation-delay: 0.52s;
+        -ms-animation-delay: 0.52s;
+        -webkit-animation-delay: 0.52s;
+        -moz-animation-delay: 0.52s;
+    }
+
+    .cssload-container .cssload-shaft10 {
+        animation-delay: 0.58s;
+        -o-animation-delay: 0.58s;
+        -ms-animation-delay: 0.58s;
+        -webkit-animation-delay: 0.58s;
+        -moz-animation-delay: 0.58s;
+    }
+
+    .cssload-container > div {
+        height: 8px;
+        animation: cssload-wave 1.15s infinite ease-in-out;
+        -o-animation: cssload-wave 1.15s infinite ease-in-out;
+        -ms-animation: cssload-wave 1.15s infinite ease-in-out;
+        -webkit-animation: cssload-wave 1.15s infinite ease-in-out;
+        -moz-animation: cssload-wave 1.15s infinite ease-in-out;
+        transform: translateY"("-39px")";
+        -o-transform: translateY"("-39px")";
+        -ms-transform: translateY"("-39px")";
+        -webkit-transform: translateY"("-39px")";
+        -moz-transform: translateY"("-39px")";
+    }
+
+
+
+@keyframes cssload-wave {
+    50% {
+        background: rgb(86,215,198);
+        transform: translateY"("39px")";
+    }
+}
+
+@-o-keyframes cssload-wave {
+    50% {
+        background: rgb(86,215,198);
+        -o-transform: translateY"("39px")";
+    }
+}
+
+@-ms-keyframes cssload-wave {
+    50% {
+        background: rgb(86,215,198);
+        -ms-transform: translateY"("39px")";
+    }
+}
+
+@-webkit-keyframes cssload-wave {
+    50% {
+        background: rgb(86,215,198);
+        -webkit-transform: translateY"("39px")";
+    }
+}
+
+@-moz-keyframes cssload-wave {
+    50% {
+        background: rgb(86,215,198);
+        -moz-transform: translateY"("39px")";
+    }
+}

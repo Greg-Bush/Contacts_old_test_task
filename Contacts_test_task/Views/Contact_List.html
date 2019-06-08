@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Contact List - Bootdey.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="jquery.bootpag.min.js"></script>
+    <style type="text/css">
+       
+    </style>
+</head>
+<body>
+    <div class="container bootstrap snippet">
+        <div class="row">            
+            <div class="col-lg-8">
+                <div class="panel panel-default">
+                    <div class="panel-body p-t-0">
+                        <form id="searchForm" role="form" class="form-inline" onsubmit="return false;">
+                            <input class="form-control" type="text" placeholder="Enter first name" name="first_name"  />
+                            <input class="form-control" type="text" placeholder="Enter last name" name="last_name" />
+                            <input class="form-control" type="text" placeholder="Enter company" name="company_name" />
+                            <input class="form-control" type="text" placeholder="Enter position" name="job_title"  />
+                            <input type="hidden" name="page" />
+
+                            <button type="submit" class="btn btn-effect-ripple btn-primary">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div id="loader" class="cssload-container">
+                    <div class="cssload-shaft1"></div>
+                    <div class="cssload-shaft2"></div>
+                    <div class="cssload-shaft3"></div>
+                    <div class="cssload-shaft4"></div>
+                    <div class="cssload-shaft5"></div>
+                    <div class="cssload-shaft6"></div>
+                    <div class="cssload-shaft7"></div>
+                    <div class="cssload-shaft8"></div>
+                    <div class="cssload-shaft9"></div>
+                    <div class="cssload-shaft10"></div>
+                </div>
+            </div>
+        </div>
+        <div id="dinamic-section" style="margin-top: 20px;">
+            <div id="page-selection"></div>
+            <div id="results" class="row">
+                
+            </div>
+        </div>
+        <div id="content">Dynamic Content goes here</div>
+    </div>
+</body>
+</html>

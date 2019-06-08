@@ -1,0 +1,57 @@
+﻿@using Contacts_test_task.Models;
+
+@model ContactsViewModel
+
+
+
+@Html.HiddenFor(t => t.TotalCount)
+
+@if (Model.TotalCount == 0)
+{
+    <text>Ничего не найдено</text>
+}
+else
+{
+    foreach (var c in Model.Results)
+    {
+        <div id="@c.id" class="col-sm-6">
+            <input type="hidden" name="avatar" value="@c.avatar" />
+            <input type="hidden" name="company_name" value="@c.company_name" />
+            <input type="hidden" name="job_title" value="@c.job_title" />
+            <input type="hidden" name="email" value="@c.email" />
+            <input type="hidden" name="first_name" value="@c.first_name" />
+            <input type="hidden" name="gender" value="@((byte)c.gender)" />
+            <input type="hidden" name="last_name" value="@c.last_name" />
+            <input type="hidden" name="phone" value="@c.phone" />           
+            <div class="panel">
+                <div class="panel-body p-t-10">
+                    <div class="media-main">
+                        <a class="pull-left" href="#">
+                            <img class="thumb-lg img-circle bx-s" src="@c.avatar" alt="">
+                        </a>
+                        <div class="pull-right btn-group-sm">
+                            <button data-change data-id="@c.id" type="button" class="btn btn-success tooltips">
+                                <i class="fa fa-pencil"></i>
+                            </button>
+                            <button data-remove data-id="@c.id" type="button" class="btn btn-danger tooltips">
+                                <i class="fa fa-close"></i>
+                            </button>
+                        </div>
+                        <div class="info">
+                            <h4>@c.first_name @c.last_name<span class="text-muted"> - @c.job_title</span></h4>
+                            <p class="text-muted">
+                                <i class="rounded fa @((GenderEnum)c.gender == GenderEnum.Male ? "fa-male" : "fa-female") "></i>
+                            </p>
+                            <p class="text-muted">@c.company_name</p>
+                            <p class="text-muted">@c.email</p>
+                            <p class="text-muted">@c.phone</p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+
+                </div>
+            </div>
+        </div>
+    }
+}

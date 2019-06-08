@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{09320E7D-93DA-4AEE-B78A-77DD9D15D6C3}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Contacts_test_task/Controllers/ContactsController.cs">
+    <Files>
+      <File FileName="Contacts_test_task/App_Start/BundleConfig.cs" Line="2" Column="12" />
+      <File FileName="Contacts_test_task/App_Start/FilterConfig.cs" Line="13" Column="2" />
+      <File FileName="Contacts_test_task/Controllers/ContactsController.cs" Line="22" Column="14" />
+      <File FileName="Contacts_test_task/Global.asax.cs" Line="25" Column="63" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Contacts_test_task" expanded="True">
+            <Node name="Contacts_test_task" expanded="True">
+              <Node name="Global.asax" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Contacts__test__task PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
